@@ -8,35 +8,50 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Trust Navy + Saffron civic palette */
+    --background: 40 30% 97%;            /* warm cream #f5f0e0-ish */
+    --foreground: 224 60% 15%;           /* deep navy text */
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 224 60% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 224 60% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 224 64% 15%;              /* #0f1b3d */
+    --primary-foreground: 40 40% 97%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 217 53% 25%;            /* #1e3a5f */
+    --secondary-foreground: 40 40% 97%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 40 25% 92%;
+    --muted-foreground: 224 20% 40%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 30 100% 60%;               /* saffron #FF9933 */
+    --accent-foreground: 224 64% 15%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --success: 142 60% 38%;
+    --success-foreground: 0 0% 100%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --warning: 38 92% 50%;
+    --warning-foreground: 224 64% 15%;
 
-    --radius: 0.5rem;
+    --destructive: 0 75% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 40 20% 86%;
+    --input: 40 20% 86%;
+    --ring: 30 100% 60%;
+
+    --radius: 0.75rem;
+
+    --gradient-hero: linear-gradient(135deg, hsl(224 64% 15%) 0%, hsl(217 53% 25%) 60%, hsl(30 100% 60%) 130%);
+    --gradient-accent: linear-gradient(135deg, hsl(30 100% 60%), hsl(20 90% 55%));
+    --gradient-card: linear-gradient(180deg, hsl(0 0% 100%), hsl(40 25% 96%));
+    --shadow-elegant: 0 20px 50px -20px hsl(224 64% 15% / 0.35);
+    --shadow-soft: 0 4px 16px -4px hsl(224 64% 15% / 0.12);
+    --shadow-glow: 0 0 40px hsl(30 100% 60% / 0.35);
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
     --sidebar-background: 0 0% 98%;
 
